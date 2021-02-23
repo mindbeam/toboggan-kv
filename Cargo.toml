@@ -1,11 +1,11 @@
 [package]
 name = "toboggan-kv"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Mindbeam Research Inc"]
 edition = "2018"
 readme = "README.md"
 
-categories = ["data structures", "caching"]
+categories = ["data-structures", "caching"]
 description = "Toboggan-kv is an abstraction layer over multiple KV stores"
 exclude = [".github", "rustfmt.toml"]
 keywords = ["sled","btree","kv","keyvalue","key-value"]
