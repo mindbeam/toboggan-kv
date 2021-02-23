@@ -1,6 +1,6 @@
 [package]
 name = "toboggan-kv"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Mindbeam Research Inc"]
 edition = "2018"
 readme = "README.md"
