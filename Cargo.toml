@@ -1,0 +1,20 @@
+[package]
+name = "toboggan-kv"
+version = "0.1.0"
+authors = ["Mindbeam Research Inc"]
+edition = "2018"
+readme = "README.md"
+
+categories = ["data structures", "caching"]
+description = "Toboggan-kv is an abstraction layer over multiple KV stores"
+exclude = [".github", "rustfmt.toml"]
+keywords = ["sled","kv","keyvalue","key-value"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/mindbeam/toboggan-kv"
+
+[dependencies]
+base64 = "0.13"
+tempfile = "3.1"
+
+[target.'cfg(not(any(target_arch = "wasm32")))'.dependencies]
+sled = "0.34"
